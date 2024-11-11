@@ -11,3 +11,30 @@ name	  - имена
 FROM	  - из
 employees - таблицы с именем employees
 ------------------------------------------------
+SELECT city     - Выбери город
+FROM employees; - из таблицы с именем employees
+#Вывод:
+city
+London
+London
+London
+Berlin
+London
+Berlin
+Berlin
+Berlin
+London
+Berlin
+------------------------------------------------
+SELECT DISTINCT city - Выбери отдельный город
+FROM employees;      - из таблицы с именем employees
+#Вывод:
+London
+Berlin
+
+слово DISTINCT - для удаления дубликатов из результирующего набора оператора SELECT
+------------------------------------------------
+
+
+
+
