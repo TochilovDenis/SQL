@@ -1,0 +1,13 @@
+SELECT * FROM employees limit 5
+SELECT    - Выбери
+ * 	  - все колонки 
+FROM	  - из
+employees - таблицы с именем employees
+limit 5   - выполняется условие ограничения до 5
+------------------------------------------------
+SELECT name FROM employees
+SELECT    - Выбери
+name	  - имена
+FROM	  - из
+employees - таблицы с именем employees
+------------------------------------------------
