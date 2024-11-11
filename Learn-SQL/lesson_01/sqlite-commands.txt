@@ -1,0 +1,11 @@
+(test-01) PS C:\DEX\Academy_TOP\blitz-croco-words> sqlite3 -> включаем приложение SQLite
+
+sqlite> .open FILNAME -> открывем ПутьКФайлуБазыДанных
+
+sqlite> .tables -> Список имен таблиц, совпадающих с таблицей шаблона  
+                                                        
+sqlite> .schema albums  -> Схема описания таблицы, поля, типы данных и пр...
+
+select * from albums limit 10;  вывести первые 10 записей таблицы albums
+
+sqlite> .quit -> Выход из приложении SQLite           
