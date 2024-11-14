@@ -143,3 +143,11 @@ CREATE TABLE tbl1(one text, two int);
 
 ------------------------------------------------
 
+INSERT INTO tbl1 VALUES('hello', 10);
+INSERT INTO tbl1 VALUES('goodbye', 20);
+
+INSERT INTO ... VALUES(...)
+INSERT INTO ... -> для добавления новых записей в таблицу tbl1.
+VALUES(...)     -> часть запроса, которая определяет значения для вставки.
+
+------------------------------------------------
