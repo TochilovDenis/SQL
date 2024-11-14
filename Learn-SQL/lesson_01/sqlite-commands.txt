@@ -6,6 +6,6 @@ sqlite> .tables -> Список имен таблиц, совпадающих с
                                                         
 sqlite> .schema albums  -> Схема описания таблицы, поля, типы данных и пр...
 
-select * from albums limit 10;  вывести первые 10 записей таблицы albums
+sqlite> .help ->  Выводит список всех доступных команд SQLite и их краткое описание.
 
 sqlite> .quit -> Выход из приложении SQLite           
