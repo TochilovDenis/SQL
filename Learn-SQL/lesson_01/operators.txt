@@ -87,6 +87,19 @@ SELECT COUNT(*) FROM имя_таблицы  -> Выполняется подсч
 
 ------------------------------------------------
 
+COUNT(DISTINCT поле) подсчитывает количество уникальных значений в указанном поле.
+
+SELECT COUNT(DISTINCT поле) FROM имя_таблицы  -> Выполняется подсчет уникальных записей во всей таблице
+                FROM имя_таблицы указывает, из какой таблицы нужно считать данные.
+
+SELECT COUNT(DISTINCT *) FROM users; Выполняется Подсчет уникальных записей во всей таблице
+
+SELECT COUNT(DISTINCT email) FROM users; Выполняется Подсчет уникальных значений в столбце "email"
+
+SELECT COUNT(DISTINCT name, age) FROM students; Выполняется Подсчет уникальных комбинаций столбцов "name" и "age"
+
+------------------------------------------------
+
 SELECT name, milliseconds, albumid
 FROM tracks
 ORDER BY albumid DESC
