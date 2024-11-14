@@ -8,4 +8,22 @@ sqlite> .schema albums  -> Схема описания таблицы, поля,
 
 sqlite> .help ->  Выводит список всех доступных команд SQLite и их краткое описание.
 
-sqlite> .quit -> Выход из приложении SQLite           
+sqlite> .quit -> Выход из приложении SQLite
+
+------------------------------------------------------------------------------
+
+sqlite3 ex1 -> Создаем файла БД
+sqlite> create table tbl1(one text, two int);  -> Создаем таблицу с именем tbl1 и двумя столбцами
+sqlite> insert into tbl1 values('hello!',10);  -> Добавление данных в таблицу
+sqlite> insert into tbl1 values('goodbye',10); -> Добавление данных в таблицу
+
+выводит все данные из таблицы tbl1.
+sqlite> SELECT * FROM tbl1;
+
+Результат:
+hello|10
+goodbye|20
+
+sqlite> create table tbl2 (f1 varchar(30) primary key, f2 text, f3 real); Создаем таблицу tbl2 с тремя столбцами:
+
+------------------------------------------------------------------------------
